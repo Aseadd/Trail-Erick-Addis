@@ -1,27 +1,54 @@
+body{
+    background-color: gray;
+}
 #header-img{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     font-size: 40px;
     color:blue;
     
 }
-
+li{
+    float: right;
+}
+ul{
+    list-style-type: none;
+}
+ a{
+     display: block;
+     padding: 15px;
+     text-decoration: none;
+ }
 #nav-bar{
     position:fixed;
-    background-color: #ffffff;
-    margin-left: 500px;
-    padding: 20px;
-    font-size: 30px;
-    width:100%;
+    font-size: 25px;
+    height: 90px;
+    background-color: darkgoldenrod;
+    width: 98%;
 }
-
+#video-link{
+    margin: 100px 50px 50px 250px;
+}
 #email{
     display:flex;
     flex-direction: row-reverse;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+#submit{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: darkgreen;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+#form{
+    display: inline;
 }
 
-
 @media screen and (min-width: 480px) {
-    #nav-bar {width: 200px; float: left;}
-    #header {margin-left: 216px;}
+    #header {margin-left: 20px;}
   }
   
